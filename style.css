@@ -1,0 +1,135 @@
+/*Itens gerais (letras, paragrafos...)*/
+h1{
+	margin:.5em 0;
+    text-align: center;
+	font-size:30px;
+	font-weight:20;
+	text-transform:uppercase;
+	letter-spacing:-.05px;
+}
+
+h2{
+	font-size: 18px;
+}
+
+/*Ultimo elemento da árvore*/
+p:last-child{
+	font-size: 10px;
+}
+
+
+
+/*a div*/
+.grid-container{
+	display: table-cell; /*Para ficar um do ladin do outro*/
+	flex-direction: column;
+	justify-content: space-between;
+	border: 6px;
+	text-align: center;
+}
+
+/*DIV PRO NAVEGADOR*/
+.style{
+	margin: 0px auto;
+	justify-content: center;
+	display: flex;
+}
+
+/*QUADRADINHOS DO ELEMENTO*/
+section{
+	font-size: 15em;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 10px;
+	border: 2px solid;
+	line-height: 0.10;
+	width: 70px;
+	height: 50px;
+	margin: 1px;	
+	cursor: pointer;
+}
+ 
+/*DIV COM A LEGENDA DOS ELEMENTOS*/
+.container{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	position: relative;
+}
+
+/*LEGENDAS*/
+.legenda{
+	margin-bottom: 10px;
+	border: 2px solid;
+	line-height: 0.10;
+	width: 15px;
+	height: 10px;
+	margin: 1px;
+	font-weight: bold;
+}
+
+.quadradinhos:hover{
+	transform: scale(1.5);
+	transition: transform 0.7s;
+}
+
+/* EFEITO NO BOX AO PASSAR MOUSE */
+.elemento:hover {
+	transform: scale(1.5);
+	transition: transform 0.7s;
+	background-color: white;
+	box-shadow: gray;
+}
+
+
+/*CORES DOS ELEMENTOS*/
+.nao-metal{
+	color:rgb(180,210,100);
+	border-color: rgb(180,210,100);
+	
+}
+	
+.gas-nobre{
+	color:rgb(100,180,225);
+}
+
+.metal-alcalino{
+	color:rgb(245,200,100);
+}
+	
+.metal-alcalino-terroso{
+	color:rgb(124, 118, 27);
+}
+	
+.semimetal{
+	color:rgb(110,200,190);
+}
+	
+.halogenio{
+	color:rgb(170,225,255);
+}
+	
+.outros-metais{
+	color:rgb(190,210,210);
+}
+	
+.metal-transicao{
+	color:rgb(245,175,175);
+}
+	
+.lantanideo{
+	color:rgb(150,225,225);
+}
+	
+.actinidio{
+	color:rgb(230,190,220);
+}
+
+.nula{
+	color:white;
+}
+
+
+
+
